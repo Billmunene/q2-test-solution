@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.023" tests="7" failures="1">
+  <testsuite name="Root Suite" timestamp="2024-08-03T13:38:22" tests="0" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="stock_trades_api_easy_typescript" timestamp="2024-08-03T13:38:22" tests="7" file="D:\q2-solution\test\index.spec.ts" time="0.009" failures="1">
+    <testcase name="stock_trades_api_easy_typescript &quot;before all&quot; hook for &quot;should create a new trade&quot;" time="0.003" classname="&quot;before all&quot; hook for &quot;should create a new trade&quot;">
+      <failure message="SQLite package has not been found installed. Try to install it: npm install sqlite3 --save" type="DriverPackageNotInstalledError"><![CDATA[DriverPackageNotInstalledError: SQLite package has not been found installed. Try to install it: npm install sqlite3 --save
+    at SqliteDriver.loadDependencies (src\driver\sqlite\SqliteDriver.ts:198:19)
+    at new SqliteDriver (src\driver\sqlite\SqliteDriver.ts:43:14)
+    at DriverFactory.create (src\driver\DriverFactory.ts:44:24)
+    at new DataSource (src\data-source\DataSource.ts:149:43)
+    at ConnectionManager.create (src\connection\ConnectionManager.ts:66:28)
+    at createConnection (src\globals.ts:100:35)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>
